@@ -106,34 +106,34 @@ Gradient boosting model optimized for tabular data.
 
 ---
 
-## 🏆 Model Performance
+## 🏆 Model Performance Comparison
 
-| Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
-|---------|---------:|---------:|---------:|---------:|---------:|
-| Logistic Regression | 0.587 | 0.278 | 0.667 | 0.393 | 0.665 |
-| Random Forest | 0.682 | 0.340 | 0.627 | 0.441 | 0.725 |
-| CatBoost | 0.664 | 0.334 | 0.688 | 0.450 | 0.738 |
+![ROC-AUC Comparison](images/roc_auc_comparison.png)
 
-### Best Performing Model
-
-🏆 **CatBoost** achieved the highest ROC-AUC score and demonstrated the strongest overall predictive performance.
+The CatBoost model achieved the highest ROC-AUC score (0.738), outperforming Logistic Regression and Random Forest.
 
 ---
 
-## 🔥 Feature Importance
+## 🔥 Feature Importance Analysis
 
-The CatBoost model identified the following variables as the strongest predictors of default risk:
+![Feature Importance](images/feature_importance.png)
+
+The most influential predictors of default risk were:
 
 - Loan Term
 - Sub Grade
-- Debt-to-Income Ratio (DTI)
+- Debt-to-Income Ratio
 - Grade
 - Interest Rate
 - FICO Score
-- Loan-to-Income Ratio
-- Recent Credit Activity
 
 ---
+
+## 🧠 SHAP Explainability
+
+![SHAP Summary](images/shap_summary.png)
+
+SHAP analysis revealed that longer loan terms, higher debt burden, poorer credit grades, and lower FICO scores significantly increase default risk.
 
 ## 🧠 Explainable AI with SHAP
 
