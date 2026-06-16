@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project develops an end-to-end machine learning pipeline to predict loan default risk using historical Lending Club loan data. The objective is to identify high-risk borrowers and support data-driven lending decisions.
+This project develops an machine learning pipeline to predict loan default risk using historical Lending Club loan data. The objective is to identify high-risk borrowers and support data-driven lending decisions.
 
 The project includes data cleaning, exploratory data analysis, feature engineering, model development, explainability, and business impact assessment.
 
