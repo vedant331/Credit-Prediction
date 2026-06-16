@@ -108,7 +108,7 @@ Gradient boosting model optimized for tabular data.
 
 ## 🏆 Model Performance Comparison
 
-![ROC-AUC Comparison](images/roc_auc_comparison.png)
+![ROC-AUC Comparison](images/roc_auc_comparison(1).png)
 
 The CatBoost model achieved the highest ROC-AUC score (0.738), outperforming Logistic Regression and Random Forest.
 
@@ -116,7 +116,7 @@ The CatBoost model achieved the highest ROC-AUC score (0.738), outperforming Log
 
 ## 🔥 Feature Importance Analysis
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](images/feature_importance(1).png)
 
 The most influential predictors of default risk were:
 
